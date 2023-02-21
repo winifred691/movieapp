@@ -1,0 +1,65 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://cdn.vox-cdn.com/thumbor/tEbCoTTbE6cyTAsh1-PzNiWKtNg=/0x0:2238x1350/920x613/filters:focal(940x496:1298x854):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66013482/Screen_Shot_2019_11_12_at_7.27.13_AM.0.png");
+  background-size: cover;
+  position: relative;
+}
+.login .top .wrapper {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login .top .wrapper .logo {
+  height: 40px;
+}
+.login .top .wrapper .container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.login .top .wrapper form {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.login .top .wrapper form input {
+  height: 40px;
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+  padding-left: 10px;
+  margin: 10px;
+}
+.login .top .wrapper form input::-moz-placeholder {
+  color: lightgray;
+}
+.login .top .wrapper form input:-ms-input-placeholder {
+  color: lightgray;
+}
+.login .top .wrapper form input::placeholder {
+  color: lightgray;
+}
+.login .top .wrapper form input .loginButton {
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=login.css.map */
